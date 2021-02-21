@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Climate Change</title>
+  </head>
+  <body>
+    <section class="showcase">
+      <header>
+        <h2 class="logo">The Environmental Study</h2>
+        <div class="toggle"></div>
+      </header>
+
+      <video src="video.mp4" muted loop autoplay></video>
+
+      <div class="overlay"></div>
+
+      <div class="text">
+        <h2>Confronting </h2>
+        <h3>Climate Change</h3>
+        <h4>We are running the most dangerous experiment in history right now, </br>which is to see how much carbon dioxide the atmosphere can handle before there is an environmental catastrophe.</h4>
+        <p><strong>Elon Musk</strong> /
+        <small>CEO of Tesla & SpaceX</small>
+        </p>
+        <a href="#">Exploratory Data Analysis</a>
+      </div>
+
+      <ul class="social">
+        <li><a href="#"><img src="https://i.ibb.co/x7P24fL/facebook.png"></a></li>
+        <li><a href="#"><img src="https://i.ibb.co/Wnxq2Nq/twitter.png"></a></li>
+        <li><a href="#"><img src="https://i.ibb.co/ySwtH4B/instagram.png"></a></li>
+      </ul>
+    </section>
+
+    <div class="menu">
+      <ul>
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="https://climate.nasa.gov/earth-now/">EARTH-NOW</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="contact.html">CONTACT</a></li>
+        <li><a href="donate.html">DONATE</a></li>
+      </ul>
+    </div>
+    <script>
+      const menuToggle = document.querySelector('.toggle')
+      const showcase = document. querySelector('.showcase')
+      menuToggle.addEventListener('click',() => {
+        menuToggle.classList.toggle('active')
+        showcase.classList.toggle('active')
+      })
+
+    </script>
+  </body>
+</html>
